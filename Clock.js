@@ -6,7 +6,7 @@ const Counter = (props) => {
 	useEffect(() => {
 		setInterval(() => {
 			setTime(prevTime => prevTime + 1);
-		}, 1);
+		}, 1000);
 	}, []);
 
 	const getTime = () => {
